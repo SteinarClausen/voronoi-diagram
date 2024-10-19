@@ -9,14 +9,14 @@ A Voronoi diagram divides a plane into regions where each region belongs to the 
 Fortune's Algorithm is a fast and efficient method to compute Voronoi diagrams using a sweepline approach. It is supposed to operate in O(n log n) time by sweeping a horizontal line from top to bottom, handling site events and circle events as it goes. With a site event being when it has reached a input point, and a cricle event being the intersection between three lines (vertex). My algorithm has not been fully optimised yet but it is fairly fast still.
 
 ### Visuals and implementation
-To make this project i have used (wikipedia)[https://en.wikipedia.org/wiki/Fortune%27s_algorithm], and a blog post by (jacquesheunis)[ https://jacquesheunis.com/post/fortunes-algorithm/]
+To make this project i have used [wikipedia](https://en.wikipedia.org/wiki/Fortune%27s_algorithm), and a blog post by [jacquesheunis]( https://jacquesheunis.com/post/fortunes-algorithm/)
 
-To visualize the Voronoi diagram, I have used SDL2 for rendering, based on the (SDL2 CMake template)[https://github.com/llanillo/clion-cmake-sdl2-template].
+To visualize the Voronoi diagram, I have used SDL2 for rendering, based on the [SDL2 CMake template](https://github.com/llanillo/clion-cmake-sdl2-template).
 
-Aside from SDL2 for the graphical interface, the algorithm is implemented purely using standard C++ libraries, ensuring efficiency without relying on external dependencies.
+Aside from SDL2 for the graphical interface, the algorithm is implemented purely using standard C++ libraries
 
 ### Showcase
-Beachline and upcoming circle-sites (blue-line)
+Beachline (black) and upcoming circle-sites (blue-line)
 ![70beachline](https://github.com/user-attachments/assets/0973ae99-6208-499a-b2a1-490b2aec447e)
 
 Voronoi diagram with 70 points
